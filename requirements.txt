@@ -1,0 +1,6 @@
+python-telegram-bot==20.8
+pandas
+pandas-ta
+yfinance
+requests
+pytz
