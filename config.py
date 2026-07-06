@@ -1,0 +1,25 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
+API_KEY = os.getenv("TWELVEDATA_API_KEY")
+
+SYMBOL = "XAU/USD"
+INTERVAL = "5min"
+
+EMA_FAST = 20
+EMA_MID = 50
+EMA_SLOW = 200
+
+ADX_PERIOD = 14
+ADX_LIMIT = 25
+
+TP_RATIO = 2.0
+
+TIMEZONE = "Asia/Tehran"
+
+START_HOUR = 16
+START_MINUTE = 30
+
+END_HOUR = 19
+END_MINUTE = 0
